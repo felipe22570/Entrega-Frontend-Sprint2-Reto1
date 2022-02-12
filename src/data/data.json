@@ -1,0 +1,74 @@
+{
+   "cards": [
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635481/photosnap_iicpqb.svg",
+         "nombre": "Senior Frontend Developer",
+         "features": ["Photosnap", "NEW!", "Features"],
+         "info": "1d ago - Full time - USA only",
+         "tags": ["Frontend", "Senior", "HTML", "CSS", "JavaScript"]
+      },
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635481/manage_xjecdl.svg",
+         "nombre": "Fullstack Developer",
+         "features": ["Manage", "NEW!", "Features"],
+         "info": "1d ago - Part time - Remote",
+         "tags": ["Fullstack", "Midweight", "Phyton", "React"]
+      },
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635479/account_g0lvui.svg",
+         "nombre": "Junior Frontend Developer",
+         "features": ["Account", "NEW!"],
+         "info": "2d ago - Part time - USA only",
+         "tags": ["Frontend", "Junior", "React", "Sass", "JavaScript"]
+      },
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635481/myhome_oyhaxg.svg",
+         "nombre": "Junior Frontend Developer",
+         "features": ["MyHome"],
+         "info": "5d ago - Contract - USA only",
+         "tags": ["Frontend", "Junior", "CSS", "JavaScript"]
+      },
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635481/loop-studios_nxhcmm.svg",
+         "nombre": "Software Engineer",
+         "features": ["Loop Studios"],
+         "info": "1w ago - Full Time - Worldwide",
+         "tags": ["Fullstack", "Midweight", "JavaScript", "Sass", "Ruby"]
+      },
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635479/faceit_ljkb8k.svg",
+         "nombre": "Junior Backend Developer",
+         "features": ["Facelit"],
+         "info": "2w ago - Full Time - UK only",
+         "tags": ["Backend", "Junior", "Ruby", "RoR"]
+      },
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635482/shortly_mw6efp.svg",
+         "nombre": "Junior Developer",
+         "features": ["Shortly"],
+         "info": "2w ago - Full Time - Worldwide",
+         "tags": ["Frontend", "Junior", "HTML", "Sass", "JavaScript"]
+      },
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635481/insure_ey6q64.svg",
+         "nombre": "Junior Frontend Developer",
+         "features": ["Insure"],
+         "info": "2w ago - Full Time - USA only",
+         "tags": ["Frontend", "Junior", "Vue", "JavaScript", "Sass"]
+      },
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635479/eyecam-co_zp6miw.svg",
+         "nombre": "Fullstack Engineer",
+         "features": ["Eyecam Co."],
+         "info": "3w ago - Full Time - Worldwide",
+         "tags": ["Fullstack", "Midweight", "JavaScript", "Django", "Python"]
+      },
+      {
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644635479/the-air-filter-company_dn5wrq.svg",
+         "nombre": "Front-end Dev",
+         "features": ["The Air Filter Company"],
+         "info": "1mo ago - Part Time - Worldwide",
+         "tags": ["Frontend", "Junior", "React", "Sass", "Javascript"]
+      }
+   ]
+}
