@@ -9,7 +9,7 @@ const Body = styled.div`
 const Mostrar = () => {
    const [elements, setElements] = useState([]);
    const getData = async () => {
-      const url = "http://localhost:4000/cards/";
+      const url = "https://reto1-sprint2.herokuapp.com/cards";
       const res = await fetch(url);
       const data = await res.json();
 

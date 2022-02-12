@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
+import CardFeatures from "./CardFeatures";
 import CardTags from "./CardTags";
 
 const Card = styled.div`
@@ -20,20 +21,36 @@ const Card = styled.div`
    margin: auto;
    box-shadow: 0px 15px 17px 0px rgba(10, 148, 91, 0.2);
    margin-bottom: 15px;
+
+   @media screen and (max-width: 500px) {
+      display: flex;
+      flex-direction: column;
+      font-size: 13px;
+   }
 `;
 
 const CardContain = styled.div`
    display: flex;
    flex: auto;
    gap: 2%;
-`;
 
-const ButtonCardTags = styled.button`
-   background-color: hsl(180, 31%, 95%);
-   color: hsl(180, 29%, 50%);
-   font-weight: bolder;
-   border: none;
-   padding: 10px;
+   img {
+      width: 100px;
+      height: 100px;
+   }
+   @media screen and (max-width: 500px) {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      img {
+         width: 40px;
+         height: 40px;
+         margin-top: -35px;
+      }
+      justify-content: left;
+      align-items: left;
+      align-content: flex-start;
+   }
 `;
 
 const Info = styled.div`
@@ -43,30 +60,12 @@ const Info = styled.div`
    font-weight: bolder;
 `;
 
-const New = styled.button`
-   background-color: hsl(180, 8%, 52%);
-   border-radius: 15px;
-   font-size: 12px;
-   color: white;
-   font-weight: bold;
-   border: none;
-   padding: 5px;
-`;
-
-const Featured = styled.button`
-   background-color: black;
-   border-radius: 15px;
-   font-size: 12px;
-   color: white;
-   font-weight: bold;
-   border: none;
-   padding: 5px;
-`;
-
-const CardFeatures = styled.div`
-   display: flex;
-   gap: 10px;
-   align-items: center;
+const Titulo = styled.h3`
+   font-weight: 700;
+   cursor: pointer;
+   &:hover {
+      color: hsl(180, 29%, 50%);
+   }
 `;
 
 const Cards = ({ elemento }) => {
@@ -78,19 +77,16 @@ const Cards = ({ elemento }) => {
       <div>
          <Card>
             <CardContain>
-               <img src={imagen} alt="" width={"100px"} height={"100px"} />
+               <img src={imagen} alt="" />
                <div>
-                  <CardFeatures>
-                     <ButtonCardTags>Photosnap</ButtonCardTags>
-                     <New>NEW!</New>
-                     <Featured>Featured</Featured>
-                  </CardFeatures>
-                  <h3 fontWeight={700}>{nombre}</h3>
+                  <CardFeatures features={features} />
+                  <Titulo>{nombre}</Titulo>
                   <Info>
                      <span>{info}</span>
                   </Info>
                </div>
             </CardContain>
+            <hr />
             <CardTags tags={tags} />
          </Card>
       </div>

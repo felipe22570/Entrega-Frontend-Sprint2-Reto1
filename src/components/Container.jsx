@@ -5,7 +5,10 @@ import Mostrar from "./Mostrar";
 import Navbar from "./Navbar";
 
 const Cont = styled.div`
-   margin: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
 `;
 
 export default class Container extends Component {

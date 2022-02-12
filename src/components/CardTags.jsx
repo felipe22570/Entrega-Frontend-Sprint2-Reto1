@@ -8,6 +8,12 @@ const Button = styled.button`
    border: none;
    padding: 10px;
    cursor: pointer;
+   border-radius: 5px;
+
+   &:hover {
+      background-color: hsl(180, 29%, 50%);
+      color: white;
+   }
 `;
 
 const CardTags = ({ tags }) => {
